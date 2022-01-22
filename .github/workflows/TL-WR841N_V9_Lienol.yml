@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: TL-WR841N_V9 Build OpenWrt
+name: TL-WR841N_V9_Lienol Build OpenWrt
 
 on:
   repository_dispatch:
@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
-  REPO_BRANCH: 19.07
+  REPO_BRANCH: 21.02
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: TL-WR841N_V9_Lienol.config
   DIY_P1_SH: diy-part1.sh

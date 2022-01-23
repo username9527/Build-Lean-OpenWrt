@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: TL-WR941ND_V6_Lienol Build OpenWrt
+name: ath79 Build OpenWrt
 
 on:
   repository_dispatch:

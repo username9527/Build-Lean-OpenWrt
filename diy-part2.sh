@@ -17,9 +17,11 @@
 rm -rf package/lean/luci-theme-argon
 # git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
 
 # Add Packages
 # git clone https://github.com/MapesxGM/luci-app-tencentddns package/luci-app-tencentddns
-git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
-git clone https://github.com/ntlf9t/luci-app-easymesh.git package/luci-app-easymesh
+rm -rf package/lean/luci-app-easymesh
+git clone https://github.com/ntlf9t/luci-app-easymesh.git package/lean/luci-app-easymesh
+

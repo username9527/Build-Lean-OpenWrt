@@ -13,6 +13,10 @@
 # Modify default IP
 # sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 
+# Modify tiny-tp-link
+sed -i 's/tplink-4mlzma/tplink-8mlzma/' target/linux/ath79/image/tiny-tp-link.mk
+sed -i 's/tplink-4m/tplink-8m/' target/linux/ath79/image/tiny-tp-link.mk
+
 # Modify default theme
 rm -rf package/lean/luci-theme-argon
 # git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon

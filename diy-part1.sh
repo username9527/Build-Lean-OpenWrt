@@ -18,8 +18,3 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git lienol https://github.com/Lienol/openwrt-package' >>feeds.conf.default
 
-# Add custom package
-git clone -b master --single-branch https://github.com/shidahuilang/openwrt-package temp
-cp -a -f ./temp/feeds .
-cp -a -f ./temp/package .
-rm -rf ./temp

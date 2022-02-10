@@ -17,12 +17,6 @@
 sed -i 's/tplink-4mlzma/tplink-8mlzma/' target/linux/ath79/image/tiny-tp-link.mk
 sed -i 's/tplink-4m/tplink-8m/' target/linux/ath79/image/tiny-tp-link.mk
 
-# Add custom package
-git clone -b master --single-branch https://github.com/shidahuilang/openwrt-package temp
-cp -a -f ./temp/feeds .
-cp -a -f ./temp/package .
-rm -rf ./temp
-
 # Modify default theme
 rm -rf package/lean/luci-theme-argon
 # git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon

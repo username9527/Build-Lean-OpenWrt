@@ -14,8 +14,8 @@
 # sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 
 # Modify tiny-tp-link
-sed -i 's/tplink-4mlzma/tplink-8mlzma/' target/linux/ath79/image/tiny-tp-link.mk
-sed -i 's/tplink-4m/tplink-8m/' target/linux/ath79/image/tiny-tp-link.mk
+# sed -i 's/tplink-4mlzma/tplink-8mlzma/' target/linux/ath79/image/tiny-tp-link.mk
+# sed -i 's/tplink-4m/tplink-8m/' target/linux/ath79/image/tiny-tp-link.mk
 
 # Modify default theme
 rm -rf package/lean/luci-theme-argon
@@ -29,5 +29,5 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 rm -rf package/lean/luci-app-easymesh
 git clone https://github.com/ntlf9t/luci-app-easymesh.git package/lean/luci-app-easymesh
 
-rm -rf package/lienol/luci-app-fileassistant
-git clone https://github.com/username9527/luci-app-fileassistant.git package/lienol/luci-app-fileassistant
+# rm -rf package/lienol/luci-app-fileassistant
+# git clone https://github.com/username9527/luci-app-fileassistant.git package/lienol/luci-app-fileassistant

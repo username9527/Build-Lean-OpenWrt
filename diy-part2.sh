@@ -28,6 +28,3 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 # git clone https://github.com/MapesxGM/luci-app-tencentddns package/luci-app-tencentddns
 rm -rf package/lean/luci-app-easymesh
 git clone https://github.com/ntlf9t/luci-app-easymesh.git package/lean/luci-app-easymesh
-
-# rm -rf package/lienol/luci-app-fileassistant
-# git clone https://github.com/username9527/luci-app-fileassistant.git package/lienol/luci-app-fileassistant

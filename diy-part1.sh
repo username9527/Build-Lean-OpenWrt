@@ -19,4 +19,4 @@
 #echo 'src-git lienol https://github.com/Lienol/openwrt-package' >>feeds.conf.default
 #echo 'src-git custom https://github.com/shidahuilang/openwrt-package' >>feeds.conf.default
 
-git clone -b main --single-branch https://github.com/Lienol/openwrt-package package/lienol
+#git clone -b main --single-branch https://github.com/Lienol/openwrt-package package/lienol

@@ -26,5 +26,5 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 
 # Add Packages
 # git clone https://github.com/MapesxGM/luci-app-tencentddns package/luci-app-tencentddns
-rm -rf package/lean/luci-app-easymesh
-git clone https://github.com/ntlf9t/luci-app-easymesh.git package/lean/luci-app-easymesh
+# rm -rf package/lean/luci-app-easymesh
+# git clone https://github.com/ntlf9t/luci-app-easymesh.git package/lean/luci-app-easymesh

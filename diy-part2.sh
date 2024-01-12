@@ -28,6 +28,8 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 # git clone -b Lede --single-branch https://github.com/shidahuilang/openwrt-package package/shidahuilang
 # rm -rf package/feeds/luci/luci-app-easymesh
 # git clone -b master --single-branch https://github.com/ntlf9t/luci-app-easymesh package/feeds/luci/luci-app-easymesh
+rm -rf package/feeds/luci/luci-app-unblockmusic
+git clone -b master --single-branch https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/feeds/luci/luci-app-unblockmusic
 git clone -b main --single-branch https://github.com/username9527/openwrt-package package/custom
 git clone -b main --single-branch https://github.com/siwind/luci-app-wolplus package/custom/luci-app-wolplus
 git clone -b main --single-branch https://github.com/sirpdboy/luci-app-netwizard package/custom/luci-app-netwizard
@@ -35,7 +37,5 @@ git clone -b main --single-branch https://github.com/sirpdboy/luci-app-advancedp
 git clone -b master --single-branch https://github.com/sirpdboy/luci-app-advanced package/custom/luci-app-advanced
 git clone -b master --single-branch https://github.com/sirpdboy/luci-app-autotimeset package/custom/luci-app-autotimeset
 git clone -b master --single-branch https://github.com/destan19/OpenAppFilter package/custom/OpenAppFilter
-rm -rf package/feeds/luci/luci-app-unblockmusic
-git clone -b master --single-branch https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/custom/luci-app-unblockneteasemusic
 
 

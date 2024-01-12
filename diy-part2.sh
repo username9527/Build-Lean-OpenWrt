@@ -21,7 +21,7 @@ sed -i 's/tplink-4m/tplink-8m/' target/linux/ath79/image/tiny-tp-link.mk
 rm -rf package/lean/luci-theme-argon
 # git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
+git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
 
 # Add Packages

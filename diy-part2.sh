@@ -29,7 +29,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Ma
 # rm -rf package/feeds/luci/luci-app-easymesh
 # git clone -b master --single-branch https://github.com/ntlf9t/luci-app-easymesh package/feeds/luci/luci-app-easymesh
 rm -rf package/feeds/luci/luci-app-unblockmusic
-git clone -b js --single-branch https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/feeds/luci/luci-app-unblockmusic
+git clone -b master --single-branch https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/feeds/luci/luci-app-unblockmusic
 git clone -b main --single-branch https://github.com/username9527/openwrt-package package/custom
 git clone -b main --single-branch https://github.com/siwind/luci-app-wolplus package/custom/luci-app-wolplus
 git clone -b master --single-branch https://github.com/sirpdboy/luci-app-advanced package/custom/luci-app-advanced

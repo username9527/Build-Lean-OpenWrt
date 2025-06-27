@@ -33,7 +33,5 @@ git clone -b master --single-branch https://github.com/UnblockNeteaseMusic/luci-
 git clone -b main --single-branch https://github.com/username9527/openwrt-package package/custom
 git clone -b main --single-branch https://github.com/siwind/luci-app-wolplus package/custom/luci-app-wolplus
 git clone -b master --single-branch https://github.com/sirpdboy/luci-app-advanced package/custom/luci-app-advanced
-git clone -b master --single-branch https://github.com/sirpdboy/luci-app-autotimeset package/custom/luci-app-autotimeset
+git clone -b master --single-branch https://github.com/sirpdboy/luci-app-taskplan package/custom/luci-app-taskplan
 git clone -b master --single-branch https://github.com/destan19/OpenAppFilter package/custom/OpenAppFilter
-
-
